@@ -1,4 +1,4 @@
-describe("Mocha Hooks", () => {
+describe.skip("Mocha Hooks", () => {
   before("Execute Before All Tests", () => {
     console.log("Execute Before All Tests");
   });
