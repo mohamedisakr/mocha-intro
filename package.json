@@ -1,10 +1,10 @@
 {
-  "name": "software-testing-craftsman",
+  "name": "mocha-intro",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "",
