@@ -1,5 +1,5 @@
 const assert = require("assert");
-const { add, subtract, divide, multiply } = require("../math-clac");
+const { add, subtract, divide, multiply } = require("../math-calc");
 
 describe.skip("Mathematical Operations - Test Suite", function () {
   // 1. Addition

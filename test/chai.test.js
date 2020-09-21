@@ -2,19 +2,19 @@ const expect = require("chai").expect;
 // const { add, subtract, divide, multiply } = require("../math-clac");
 const { createObject } = require("../chai-assertion");
 
-describe.only("Chai Object Assertion", () => {
+describe.skip("Chai Object Assertion", () => {
   //
-  it("object deep equal", () => {
-    var a = new createObject();
-    var b = new createObject();
-
-    expect(a).to.be.deep.equals(b);
+  it("object is typeof object", () => {
+    const a = createObject();
+    expect(a).to.be.an("object");
   });
 
   //
-  it("object is typeof object", () => {
-    var a = createObject();
-    expect(a).to.be.an("object");
+  it("object deep equal", () => {
+    const a = new createObject();
+    const b = new createObject();
+
+    expect(a).to.be.deep.equals(b);
   });
 });
 

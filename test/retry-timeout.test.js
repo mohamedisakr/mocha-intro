@@ -1,5 +1,5 @@
 const assert = require("assert");
-const { add, subtract, divide, multiply } = require("../math-clac");
+const { add, subtract, divide, multiply } = require("../math-calc");
 
 describe("suite-level timeout", () => {
   //   this.timeout(40000);
