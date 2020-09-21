@@ -2,7 +2,7 @@ const should = require("chai").should();
 
 const { writeToFile } = require("../should-extras");
 
-describe.only("should extras", () => {
+describe.skip("should extras", () => {
   //
   it("should will not work", () => {
     // a = writeToFile(new Error("should will not work"));
