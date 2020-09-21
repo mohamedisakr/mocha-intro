@@ -1,7 +1,7 @@
 const should = require("chai").should();
 const { createObject } = require("../chai-assertion");
 
-describe.only("Working with arrays", () => {
+describe.skip("Working with arrays", () => {
   //
   it("object is typeof object", () => {
     const a = new createObject();
