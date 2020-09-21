@@ -9,7 +9,7 @@ chai.config.showDiff = false; // turn off reporter diff display
 chai.config.truncateThreshold = 0; // disable truncating
 chai.config.includeStack = true; // turn on stack trace
 
-describe.only("objects", () => {
+describe.skip("objects", () => {
   it("should equal", () => {
     let a = {
       a: 1,
